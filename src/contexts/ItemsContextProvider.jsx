@@ -2,6 +2,7 @@ import { createContext, useEffect, useState } from "react";
 
 import { initialItems } from "../lib/constants";
 
+//No longer use context api as move to zustand. But keep as reference
 export const ItemsContext = createContext();
 
 export default function ItemsContextProvider({ children }) {
